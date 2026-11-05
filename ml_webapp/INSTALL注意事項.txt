@@ -1,0 +1,21 @@
+需要
+pip install 
+numpy
+pandas
+jieba
+    pip install pdfplumber
+    pip install matplotlib
+    pip install scikit-learn
+
+pip install numpy pandas jieba pdfplumber scikit-learn python-docx openpyxl
+
+pip install graphviz
+
+需要安裝獨立的 Graphviz 程式。  https://graphviz.org/download/
+Windows：
+從 Graphviz 官方網站下載頁面 下載 安裝檔。
+執行安裝程式。在安裝過程中，請確保勾選「新增至系統 PATH」的選項。
+安裝完成後，開啟命令提示字元或終端機，輸入 dot -V，如果顯示 Graphviz 的版本號，代表安裝成功。
+
+set_time_limit(0);才能讓系統執行可以超過PHP預設時間
+XAMPP 的 Apache 的 Config 鈕, 選 PHP (php.ini) 檢查 php.ini 設定,  max_execution_time 設置為 5000 秒
